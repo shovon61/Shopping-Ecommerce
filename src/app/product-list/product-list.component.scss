@@ -7,6 +7,7 @@ button{
 }
 .containerflex {
     // background: gray;
+    height: auto;
     width: auto;
     // height: 500px; /* height given for illustration */
     display: flex;
@@ -20,5 +21,15 @@ button{
     margin: 4px;
     flex: 0 1 calc(20% - 8px); /* <-- adjusting for margin */
     border: 2px solid red;
-    height: 200px;
+    // height: 200px;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+  }
+  nav{
+    // text-align: center;
   }
